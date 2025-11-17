@@ -33,101 +33,63 @@ Budget Band (Low, Medium, High, Blockbuster)
 
 📊 2. Data Analysis (Pivot Tables & Formulas)
 
-Created several PivotTables to analyze:
-
-Average IMDb Rating by Year
-
-Studio (Production Company) Revenue
-
-Genre Revenue & Profitability
-
-ROI by Budget Band
-
-Top 10 Movies by Profit
-
-Budget vs IMDb Rating (Filterable scatter plot using FILTER function)
+-Created several PivotTables to analyze:
+-Average IMDb Rating by Year
+-Studio (Production Company) Revenue
+-Genre Revenue & Profitability
+-ROI by Budget Band
+-Top 10 Movies by Profit
+-Budget vs IMDb Rating (Filterable scatter plot using FILTER function)
 
 Key Excel functions used:
-
-XLOOKUP
-
-VLOOKUP
-
-FILTER
-
-IF & IFS
-
-PivotTable Calculated Fields
+-XLOOKUP
+-VLOOKUP
+-FILTER
+-IF & IFS
+-PivotTable Calculated Fields
 
 📈 3. Interactive Dashboard
 
 The final dashboard includes:
 
 📊 Charts
-
-Average IMDb Rating by Year (Line Chart)
-
-Revenue by Studio (Bar Chart)
-
-Genre Revenue Breakdown (Column Chart)
-
-ROI by Budget Band (Column Chart)
-
-Budget vs IMDb Rating (Scatter Plot)
-
-Top 10 Movies by Profit (Horizontal Bar Chart)
+-Average IMDb Rating by Year (Line Chart)
+-Revenue by Studio (Bar Chart)
+-Genre Revenue Breakdown (Column Chart)
+-ROI by Budget Band (Column Chart)
+-Budget vs IMDb Rating (Scatter Plot)
+-Top 10 Movies by Profit (Horizontal Bar Chart)
 
 🎛 Slicers
 
-Genre
-
-Release Year
-
-Budget Band
-
-Studio
-
-⭐ KPI Cards
-
-Total Movies
-
-Total Revenue
-
-Average IMDb Rating
-
-Average ROI
+1. Genre
+2. Release Year
+3. Budget Band
+4. Studio
 
 🔍 4. Key Insights
 
 Some insights discovered:
-
 Higher budgets do not guarantee better IMDb ratings — but there is a sweet spot between $20M–$60M where ratings are consistently strong.
-
 Animation & Adventure genres dominate ROI due to high audience appeal and long theatrical runs.
-
 A few major studios contribute to the majority of revenue, highlighting market consolidation.
-
 Certain low-budget films achieve exceptional ROI, showing strong profitability potential outside blockbusters.
 
 🛠 Tools Used
-
 Excel (Power Query, PivotTables, Slicers, Charts)
-
 Power Query Editor
-
 TMDB 5000 Movies Dataset
-
 Basic Data Modeling & Feature Engineering
 
 📸 Dashboard Preview
 
-(Add your screenshots after uploading them to the repo)
+
 
 📌 How to Use This Project
 
 Download the repo
 
-Open Movie_Dashboard.xlsx
+Open Movies_revenue_dashboard.xlsx
 
 Use slicers to explore genre, studio, budget, and year trends
 
@@ -136,15 +98,9 @@ Interact with charts to drill into movie performance
 👨‍💻 About This Project
 
 This project demonstrates core skills required for junior data analyst roles, including:
-
 Data cleaning
-
 Analytical thinking
-
 Trend identification
-
 Dashboard design
-
 Storytelling with data
-
 Excel automation
