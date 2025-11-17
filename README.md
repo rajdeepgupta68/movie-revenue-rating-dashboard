@@ -115,8 +115,8 @@ TMDB 5000 Movies Dataset
 
 Basic Data Modeling & Feature Engineering
 
-📸 Dashboard Preview
 
+<img width="2744" height="1251" alt="Screenshot 2025-11-17 155132" src="https://github.com/user-attachments/assets/1497cf19-9d5d-400f-bc34-f9fedf4d528c" />
 
 
 📌 6. How to Use This Project
