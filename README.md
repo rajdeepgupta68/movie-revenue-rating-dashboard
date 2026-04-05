@@ -1,9 +1,9 @@
-🎬 Movie Revenue & Ratings Dashboard (Excel Project)
+Movie Revenue & Ratings Dashboard (Excel Project)
 -
 An end-to-end data analysis & visualization project built in Excel using the TMDB 5000 Movies dataset.
 This project demonstrates skills in Power Query, data cleaning, pivot tables, VLOOKUP/XLOOKUP, DAX-style calculations, data modeling, interactive dashboards, and storytelling with analytics.
 
-📁 Project Files
+Project Files
 -
 Movies_revenue_dashboard.xlsx	Final interactive Excel dashboard 
 
@@ -37,7 +37,7 @@ Cleaned null or zero values for ratings
 
 Trimmed and transformed genre & production company fields
 
-📊 2. Data Analysis (Pivot Tables & Formulas)
+2. Data Analysis (Pivot Tables & Formulas)
 -
 Created several PivotTables to analyze:
 
@@ -65,11 +65,11 @@ IF & IFS
 
 PivotTable Calculated Fields
 
-📈 3. Interactive Dashboard
+3. Interactive Dashboard
 -
 The final dashboard includes:
 
-**📊 Charts**
+**Charts**
 
 Average IMDb Rating by Year (Line Chart)
 
@@ -83,7 +83,7 @@ Budget vs IMDb Rating (Scatter Plot)
 
 Top 10 Movies by Profit (Horizontal Bar Chart)
 
-**🎛 Slicers**
+**Slicers**
 
 Genre
 
@@ -93,7 +93,7 @@ Budget Band
 
 Studio
 
-🔍 4. Key Insights
+4. Key Insights
 -
 Some insights discovered:
 
@@ -105,7 +105,7 @@ A few major studios contribute to the majority of revenue, highlighting market c
 
 Certain low-budget films achieve exceptional ROI, showing strong profitability potential outside blockbusters.
 
-🛠 5. Tools Used
+5. Tools Used
 -
 Excel (Power Query, PivotTables, Slicers, Charts)
 
@@ -119,7 +119,7 @@ Basic Data Modeling & Feature Engineering
 <img width="2744" height="1251" alt="Screenshot 2025-11-17 155132" src="https://github.com/user-attachments/assets/1497cf19-9d5d-400f-bc34-f9fedf4d528c" />
 
 
-📌 6. How to Use This Project
+6. How to Use This Project
 -
 Download the repo
 
@@ -129,7 +129,7 @@ Use slicers to explore genre, studio, budget, and year trends
 
 Interact with charts to drill into movie performance
 
-👨‍💻 7. About This Project
+7. About This Project
 -
 This project demonstrates core skills required for junior data analyst roles, including:
 
