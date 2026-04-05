@@ -1,146 +1,120 @@
-Movie Revenue & Ratings Dashboard (Excel Project)
--
-An end-to-end data analysis & visualization project built in Excel using the TMDB 5000 Movies dataset.
-This project demonstrates skills in Power Query, data cleaning, pivot tables, VLOOKUP/XLOOKUP, DAX-style calculations, data modeling, interactive dashboards, and storytelling with analytics.
+# 🎬 Movie Revenue & Ratings Dashboard
 
-Project Files
--
-Movies_revenue_dashboard.xlsx	Final interactive Excel dashboard 
+An end-to-end data analysis and visualization project built in Excel using the **TMDB 5000 Movies** dataset. This project demonstrates practical data analyst skills including data cleaning, analytical modelling, and interactive dashboard design.
 
-tmdb_5000_movies.csv	Original dataset
+![Dashboard Preview](images/Screenshot%202025-11-17%20155132.png)
 
-cleaned_movies.csv	Cleaned dataset exported from Power Query
+---
 
-/images/	Dashboard screenshots
+## 📁 Project Files
 
-**1. Data Cleaning (Power Query)**
--
-Steps performed in Power Query:
+| File | Description |
+|---|---|
+| `Movies_revenue_dashboard.xlsx` | Final interactive Excel dashboard |
+| `tmdb_5000_movies.csv` | Original raw dataset |
+| `cleaned_movies.csv` | Cleaned dataset exported from Power Query |
+| `/images/` | Dashboard screenshots |
 
-Removed duplicate rows
+---
 
-Filtered out movies with missing or invalid budget/revenue
+## 🔧 1. Data Cleaning - Power Query
 
-Converted data types (budget, revenue → number)
+All data preparation was handled inside **Power Query Editor**. Steps performed:
 
-Extracted release year
+- Removed duplicate rows
+- Filtered out movies with missing or invalid budget/revenue values
+- Converted `budget` and `revenue` fields to numeric data types
+- Extracted release year from date fields
+- Cleaned null and zero values from ratings columns
+- Trimmed and standardised genre and production company fields
 
-Created calculated columns:
+**Calculated columns added:**
 
-Profit = Revenue − Budget
+| Column | Formula |
+|---|---|
+| Profit | Revenue - Budget |
+| ROI | Profit ÷ Budget |
+| Budget Band | Categorised as Low / Medium / High / Blockbuster |
 
-ROI = Profit ÷ Budget
+---
 
-Budget Band (Low, Medium, High, Blockbuster)
+## 📊 2. Data Analysis - Pivot Tables & Formulas
 
-Cleaned null or zero values for ratings
+Several PivotTables were built to explore the dataset from multiple angles:
 
-Trimmed and transformed genre & production company fields
+- Average IMDb Rating by Year
+- Studio (Production Company) Revenue
+- Genre Revenue & Profitability
+- ROI by Budget Band
+- Top 10 Movies by Profit
+- Budget vs IMDb Rating (filterable scatter plot using the `FILTER` function)
 
-**2. Data Analysis (Pivot Tables & Formulas)**
--
-Created several PivotTables to analyze:
+**Key Excel functions used:** `XLOOKUP`, `VLOOKUP`, `FILTER`, `IF`, `IFS`, and PivotTable Calculated Fields.
 
-Average IMDb Rating by Year
+---
 
-Studio (Production Company) Revenue
+## 📈 3. Interactive Dashboard
 
-Genre Revenue & Profitability
+The final dashboard brings all analyses together in a single, slicer-driven interface.
 
-ROI by Budget Band
+### Charts
 
-Top 10 Movies by Profit
+- **Average IMDb Rating by Year** - Line Chart
+- **Revenue by Studio** - Bar Chart
+- **Genre Revenue Breakdown** - Column Chart
+- **ROI by Budget Band** - Column Chart
+- **Budget vs IMDb Rating** - Scatter Plot
+- **Top 10 Movies by Profit** - Horizontal Bar Chart
 
-Budget vs IMDb Rating (Filterable scatter plot using FILTER function)
+### Slicers
 
-Key Excel functions used:
+Filter the entire dashboard by **Genre**, **Release Year**, **Budget Band**, and **Studio**.
 
-XLOOKUP
+---
 
-VLOOKUP
+## 💡 4. Key Insights
 
-FILTER
+- **Higher budgets do not guarantee better ratings.** There is a sweet spot between **$20M–$60M** where IMDb ratings are consistently strong.
+- **Animation and Adventure genres dominate ROI**, driven by wide audience appeal and long theatrical runs.
+- **A small number of major studios generate the majority of total revenue**, reflecting significant market consolidation.
+- **Certain low-budget films achieve exceptional ROI**, demonstrating strong profitability potential outside the blockbuster tier.
 
-IF & IFS
+---
 
-PivotTable Calculated Fields
+## 🛠️ 5. Tools Used
 
-**3. Interactive Dashboard**
--
-The final dashboard includes:
+- Microsoft Excel - Power Query, PivotTables, Slicers, Charts
+- Power Query Editor
+- TMDB 5000 Movies Dataset
+- Feature engineering and basic data modelling
 
-**Charts**
+---
 
-Average IMDb Rating by Year (Line Chart)
+## 🚀 6. How to Use
 
-Revenue by Studio (Bar Chart)
+1. Download or clone this repository
+2. Open `Movies_revenue_dashboard.xlsx` in Excel
+3. Use the slicers to filter by genre, studio, budget band, or year
+4. Interact with the charts to drill into movie performance trends
 
-Genre Revenue Breakdown (Column Chart)
+> **Note:** Ensure macros and data connections are enabled if prompted on first open.
 
-ROI by Budget Band (Column Chart)
+---
 
-Budget vs IMDb Rating (Scatter Plot)
+## 👤 7. About This Project
 
-Top 10 Movies by Profit (Horizontal Bar Chart)
+This project was built to demonstrate core competencies expected of a junior data analyst, including:
 
-**Slicers**
+- Data cleaning and transformation
+- Analytical thinking and feature engineering
+- Trend identification and pattern recognition
+- Dashboard design and layout
+- Storytelling with data
 
-Genre
+It serves as a portfolio piece showcasing the ability to take raw data from ingestion through to actionable insights using Excel as the primary tool.
 
-Release Year
+---
 
-Budget Band
+## 📂 Dataset
 
-Studio
-
-**4. Key Insights**
--
-Some insights discovered:
-
-Higher budgets do not guarantee better IMDb ratings — but there is a sweet spot between $20M–$60M where ratings are consistently strong.
-
-Animation & Adventure genres dominate ROI due to high audience appeal and long theatrical runs.
-
-A few major studios contribute to the majority of revenue, highlighting market consolidation.
-
-Certain low-budget films achieve exceptional ROI, showing strong profitability potential outside blockbusters.
-
-**5. Tools Used**
--
-Excel (Power Query, PivotTables, Slicers, Charts)
-
-Power Query Editor
-
-TMDB 5000 Movies Dataset
-
-Basic Data Modeling & Feature Engineering
-
-
-<img width="2744" height="1251" alt="Screenshot 2025-11-17 155132" src="https://github.com/user-attachments/assets/1497cf19-9d5d-400f-bc34-f9fedf4d528c" />
-
-
-**6. How to Use This Project**
--
-Download the repo
-
-Open Movies_revenue_dashboard.xlsx
-
-Use slicers to explore genre, studio, budget, and year trends
-
-Interact with charts to drill into movie performance
-
-**7. About This Project**
--
-This project demonstrates core skills required for junior data analyst roles, including:
-
-Data cleaning
-
-Analytical thinking
-
-Trend identification
-
-Dashboard design
-
-Storytelling with data
-
-Excel automation
+**TMDB 5000 Movies Dataset** - sourced from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). Contains metadata on approximately 5,000 films including budget, revenue, genres, production companies, release dates, and audience ratings.
