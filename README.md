@@ -37,7 +37,7 @@ Cleaned null or zero values for ratings
 
 Trimmed and transformed genre & production company fields
 
-2. Data Analysis (Pivot Tables & Formulas)
+**2. Data Analysis (Pivot Tables & Formulas)**
 -
 Created several PivotTables to analyze:
 
@@ -65,7 +65,7 @@ IF & IFS
 
 PivotTable Calculated Fields
 
-3. Interactive Dashboard
+**3. Interactive Dashboard**
 -
 The final dashboard includes:
 
@@ -93,7 +93,7 @@ Budget Band
 
 Studio
 
-4. Key Insights
+**4. Key Insights**
 -
 Some insights discovered:
 
@@ -105,7 +105,7 @@ A few major studios contribute to the majority of revenue, highlighting market c
 
 Certain low-budget films achieve exceptional ROI, showing strong profitability potential outside blockbusters.
 
-5. Tools Used
+**5. Tools Used**
 -
 Excel (Power Query, PivotTables, Slicers, Charts)
 
@@ -119,7 +119,7 @@ Basic Data Modeling & Feature Engineering
 <img width="2744" height="1251" alt="Screenshot 2025-11-17 155132" src="https://github.com/user-attachments/assets/1497cf19-9d5d-400f-bc34-f9fedf4d528c" />
 
 
-6. How to Use This Project
+**6. How to Use This Project**
 -
 Download the repo
 
@@ -129,7 +129,7 @@ Use slicers to explore genre, studio, budget, and year trends
 
 Interact with charts to drill into movie performance
 
-7. About This Project
+**7. About This Project**
 -
 This project demonstrates core skills required for junior data analyst roles, including:
 
